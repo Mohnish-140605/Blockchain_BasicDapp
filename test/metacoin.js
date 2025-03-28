@@ -28,3 +28,4 @@ contract("MetaCoin", accounts => {
         assert.equal(finalBalance.valueOf(), initialBalance + amount, "Coin wasn't sent correctly");
         });
     }
+);
